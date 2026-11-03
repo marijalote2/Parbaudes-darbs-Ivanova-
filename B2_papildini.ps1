@@ -1,5 +1,3 @@
-Write-Host "Sākam eksportu"
-
 $diski = Get-PSDrive -PSProvider FileSystem |
     Select-Object Name, Used, Free
     
