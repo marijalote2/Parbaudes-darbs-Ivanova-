@@ -6,4 +6,4 @@ dalas = rinda.split()
 if len(dalas) > 2 and dalas[2] == "WARNING":
 skaits = skaits + 1
 
-print("Atrasts:", skaits)
+print(skaits)
