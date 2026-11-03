@@ -18,6 +18,5 @@ atlasitās_rindas.append(rinda)
 
 print("Atrasts:", skaits)
 
-iznākuma_fails = f"{meklejamais.lower()}_rindas.log"
 with open(iznākuma_fails, "w", encoding="utf-8") as f:
 f.writelines(atlasitās_rindas)
