@@ -5,14 +5,14 @@ if len(sys.argv) < 2:
    print("Piemērs: python C1_uzraksti.py WARNING")
 sys.exit()
 
-meklejamais = sys.argv[1].upper()
+līmeni = sys.argv[1].upper()
 skaits = 0
 atlasitās_rindas = []
 
 with open("sistema.log", encoding="utf-8") as f:
     for rinda in f:
 dalas = rinda.split()
-      if len(dalas) > 2 and dalas[2] == meklejamais:
+      if len(dalas) > 2 and dalas[2] == līmeni:
 skaits += 1
 atlasitās_rindas.append(rinda)
 
